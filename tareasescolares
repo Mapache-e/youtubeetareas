@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulación de YouTube</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #FF0000;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+        }
+        .header img {
+            height: 40px;
+            margin-right: 20px;
+        }
+        .container {
+            padding: 20px;
+        }
+        .video {
+            display: flex;
+            margin-bottom: 20px;
+        }
+        .video img {
+            width: 200px;
+            height: 120px;
+            margin-right: 20px;
+        }
+        .video-details {
+            max-width: 600px;
+        }
+    </style>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXXX-X"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-XXXXXXXXX-X');
+    </script>
+</head>
+<body>
+    <div class="header">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube Logo">
+        <h1>Simulación de YouTube</h1>
+    </div>
+    <div class="container">
+        <div class="video">
+            <img src="https://via.placeholder.com/200x120.png?text=Video+Thumbnail" alt="Video Thumbnail">
+            <div class="video-details">
+                <h2>Título del Video 1</h2>
+                <p>Descripción breve del video 1.</p>
+            </div>
+        </div>
+        <div class="video">
+            <img src="https://via.placeholder.com/200x120.png?text=Video+Thumbnail" alt="Video Thumbnail">
+            <div class="video-details">
+                <h2>Título del Video 2</h2>
+                <p>Descripción breve del video 2.</p>
+            </div>
+        </div>
+        <div class="video">
+            <img src="https://via.placeholder.com/200x120.png?text=Video+Thumbnail" alt="Video Thumbnail">
+            <div class="video-details">
+                <h2>Título del Video 3</h2>
+                <p>Descripción breve del video 3.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
